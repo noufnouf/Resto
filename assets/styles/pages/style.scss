@@ -1,3 +1,5 @@
-h1{
-    color: red;
-}
+@import "./settings";
+@import "./fontColore";
+@import "../layout/header";
+@import "../layout/main";
+@import "../layout/footer";

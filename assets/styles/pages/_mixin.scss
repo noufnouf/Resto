@@ -1,0 +1,23 @@
+@mixin deLaNav {
+  display: grid;
+  grid-template-columns: 10% 60% 10%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@mixin desUL {
+  display: flex;
+  justify-content: space-evenly;
+}
+@mixin DfFDcJCsaAIc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin DfFDcAIcJCse{
+display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+    }

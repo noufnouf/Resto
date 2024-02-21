@@ -22,8 +22,10 @@ li {
 }
 
 header {
-  height: 100vh;
+  height: 90vh;
   background: url(/assets/image/bg-slider-06.jpg) no-repeat center/cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -194,4 +196,10 @@ main section:first-child article:first-child div h3 span {
   color: #CACBC5;
   font-family: "roboto";
   font-weight: 300;
+}
+main section:first-child article:last-child img {
+  width: 100%;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */

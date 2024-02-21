@@ -22,10 +22,8 @@ li {
 }
 
 header {
-  height: 90vh;
+  height: 100vh;
   background: url(/assets/image/bg-slider-06.jpg) no-repeat center/cover;
-  -o-object-fit: cover;
-     object-fit: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

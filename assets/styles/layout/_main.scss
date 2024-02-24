@@ -114,9 +114,7 @@ main {
       div {
         width: 100%;
         height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+       @include DfFDcJCsaAIc;
         padding: 10px;
         ul {
           padding: 3px;
@@ -135,15 +133,24 @@ main {
           }
 
           li {
-            display: flex;
-            text-align: left;
-            align-items: center;
-            justify-content: space-around;
+            @include DfAIcJCsa;
 
             img {
               width: 90%;
               border-radius: 50%;
               text-align: left;
+            }
+            p{
+              font-family: $font3;
+              color: $color5;
+              text-transform: uppercase;
+              span{
+                color: black;
+              }
+            }
+            &:last-child{
+              color: $color5;
+              font-family: $font3;
             }
           }
         }

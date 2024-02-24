@@ -68,6 +68,18 @@ header nav ul {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
+header nav ul li {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+header nav ul li:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
 header #contenaire-nav-1 {
   margin-top: 150px;
   height: 40%;
@@ -284,6 +296,9 @@ main section:nth-child(2) article:nth-child(3) div {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10px;
 }
 main section:nth-child(2) article:nth-child(3) div ul {
@@ -318,4 +333,16 @@ main section:nth-child(2) article:nth-child(3) div ul li img {
   width: 90%;
   border-radius: 50%;
   text-align: left;
+}
+main section:nth-child(2) article:nth-child(3) div ul li p {
+  font-family: "roboto";
+  color: #CACBC5;
+  text-transform: uppercase;
+}
+main section:nth-child(2) article:nth-child(3) div ul li p span {
+  color: black;
+}
+main section:nth-child(2) article:nth-child(3) div ul li:last-child {
+  color: #CACBC5;
+  font-family: "roboto";
 }/*# sourceMappingURL=style.css.map */

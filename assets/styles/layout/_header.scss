@@ -23,6 +23,15 @@ header {
       font-weight: 100;
       text-transform: uppercase;
       @include desUL;
+      li {
+        transition: 0.3s;
+        &:hover {
+          transition: 0.3s;
+          transform: scale(1.7);
+          border-bottom: 1px solid white;
+          cursor: pointer;
+        }
+      }
     }
   }
   #contenaire-nav-1 {
@@ -37,13 +46,12 @@ header {
     text-align: center;
 
     h1 {
-       
-        line-height: 45px;
+      line-height: 45px;
       span:first-child {
         font-family: $font1;
         font-size: 3.5rem;
         text-transform: capitalize;
-        color:$color4;
+        color: $color4;
       }
       span:last-child {
         font-family: $font2;
@@ -53,16 +61,16 @@ header {
         letter-spacing: 5px;
       }
     }
-    img{
-        width: 50px;
-        height: 50px;
+    img {
+      width: 50px;
+      height: 50px;
     }
-    p{
-        font-family: $font3;
-        font-weight: 100;
-        text-transform: uppercase;
-        color: $color5;
-        letter-spacing: 5px;
+    p {
+      font-family: $font3;
+      font-weight: 100;
+      text-transform: uppercase;
+      color: $color5;
+      letter-spacing: 5px;
     }
   }
 }

@@ -22,7 +22,7 @@ li {
 }
 
 header {
-  height: 100vh;
+  height: 100dvh;
   background: url(/assets/image/bg-slider-06.jpg) no-repeat center/cover;
   display: -webkit-box;
   display: -ms-flexbox;

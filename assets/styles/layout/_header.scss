@@ -6,6 +6,10 @@ header {
   align-items: center;
   justify-content: flex-start;
   nav {
+    width: 80%;
+    color: white;
+    @include deLaNav;
+    min-width:700px;
     // border: 1px solid rgba(255, 255, 255, 0.196);
     // border-radius: 30px;
     div {
@@ -14,9 +18,6 @@ header {
       font-weight: bolder;
       text-transform: capitalize;
     }
-    width: 80%;
-    color: white;
-    @include deLaNav;
     ul {
       font-family: $font3;
       font-size: 0.8rem;

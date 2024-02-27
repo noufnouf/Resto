@@ -6,14 +6,29 @@ header {
   align-items: center;
   justify-content: flex-start;
   nav {
+    @media screen and (max-width: 950px) {
+      justify-content: end;
+      width: 100%;
+      justify-items: end;
+      min-width: none;
+      ul:nth-child(2) {
+        display: none;
+      }
+      ul:nth-child(3) {
+        width: 50%;
+        font-size: 1.2rem;
+      }
+    }
+
     width: 80%;
     color: white;
     @include deLaNav;
-    min-width:700px;
+
     // border: 1px solid rgba(255, 255, 255, 0.196);
     // border-radius: 30px;
     div {
       font-family: $font1;
+      color: $color4;
       font-size: 2.9rem;
       font-weight: bolder;
       text-transform: capitalize;
@@ -36,6 +51,7 @@ header {
     }
   }
   #contenaire-nav-1 {
+    // opacity: 0;
     margin-top: 150px;
     // background: rgba(255, 0, 0, 0.361);
     height: 40%;
